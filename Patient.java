@@ -1,4 +1,5 @@
 package hospital;
+// BST implementation - insert, search, delete, in-order traversal
 
 /**
  * Represents a single hospital patient record.
