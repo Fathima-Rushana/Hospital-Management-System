@@ -186,6 +186,7 @@ public class Main {
     // ---------- Utility ----------
     private static int readInt(String prompt) {
         System.out.print(prompt);
+   // Edge case: If the removed node was the tail, update the tail pointer to previous
         while (!scanner.hasNextInt()) {
             System.out.print("Please enter a valid number: ");
             scanner.next();
